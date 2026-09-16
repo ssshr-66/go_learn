@@ -129,6 +129,12 @@ channel:
 # codex:
 #   dispatch_mode: auto  # or "inline"; legacy alias: "sub-agent"
 
+# This repository is an interactive learning workspace. Keep the main Codex
+# session in control so the assistant can teach and review instead of having
+# an implementation sub-agent write the exercise wholesale.
+codex:
+  dispatch_mode: inline
+
 #-------------------------------------------------------------------------------
 # Sub-agent context injection limits
 #-------------------------------------------------------------------------------
