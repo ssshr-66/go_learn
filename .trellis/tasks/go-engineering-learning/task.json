@@ -3,7 +3,7 @@
   "name": "go-engineering-learning",
   "title": "Go 工程能力学习总计划",
   "description": "建立一套以小型可运行 Demo 为核心、由 AI 逐步指导的 Go 工程能力学习计划，持续记录每周目标、每日训练、代码产出、测试结果和复盘结论。",
-  "status": "planning",
+  "status": "in_progress",
   "dev_type": null,
   "scope": null,
   "package": null,
@@ -20,7 +20,11 @@
   "subtasks": [],
   "children": [],
   "parent": null,
-  "relatedFiles": [],
+  "relatedFiles": [
+    "LEARNING_PLAN.md",
+    "go_01_basic-syntax/README.md",
+    ".trellis/spec/go/"
+  ],
   "notes": "",
   "meta": {}
 }

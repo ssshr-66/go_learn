@@ -20,9 +20,17 @@
 
 ## Trellis 记录方式
 
-- `.trellis/tasks/09-17-go-engineering-learning/`：长期学习目标、能力路线和完成标准
-- 每周建立一个子任务：记录本周目标、每日计划、Demo 和复盘
-- 每日学习过程记录在对应周任务的 `daily/day-XX.md`，重要结论同步到 `.trellis/workspace/` 日志
-- Go 代码 Demo 放在 `demos/week-XX/day-XX-topic/`，每个 Demo 尽量独立、可运行、可测试
+- `.trellis/tasks/go-engineering-learning/`：只保存长期学习目标、能力路线和完成标准，供后续对话恢复上下文
+- 真正给学习者看的内容都在仓库根目录：每个学习日或小 Demo 建立一个 `go_XX_xxx/` 文件夹，里面放 `README.md`、Go 源码和必要的测试文件
+- 不为普通的每周/每日学习建立复杂的 Trellis 子任务树，除非学习者以后明确提出需要
+- 每个 Demo 尽量独立、可运行、可测试；学习过程遵循“理解需求 → 自己设计 → 分步实现 → 测试 → 增加需求 → 复盘”
+
+## 当前入口
+
+- 总路线：[LEARNING_PLAN.md](LEARNING_PLAN.md)
+- 第一天：[go_01_basic-syntax/README.md](go_01_basic-syntax/README.md)
+- 第一天练习代码：[go_01_basic-syntax/main.go](go_01_basic-syntax/main.go)
 
 当前阶段：先用 4 天唤醒 Go 基础语法，再开始第一个小型工程 Demo。
+
+详细的长期目标和阶段划分见 `.trellis/tasks/go-engineering-learning/prd.md`。

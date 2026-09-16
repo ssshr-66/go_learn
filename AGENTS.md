@@ -25,9 +25,11 @@ Managed by Trellis. Edits outside this block are preserved; edits inside may be 
 This repository is a guided Go engineering learning workspace, not a production service.
 
 - Keep the primary engineering-learning language as Go. Algorithm practice may remain in Java.
+- `.trellis/tasks/go-engineering-learning/` is the single long-term memory and planning record. Do not create a redundant Trellis task tree for ordinary weekly or daily lessons unless the learner asks for it.
+- The learner-facing source of truth is the repository root: each lesson or small demo belongs in a `go_XX_xxx/` folder with a `README.md` and the code needed for that lesson.
+- When the learner asks how to study next, create or update the appropriate root-level lesson folder and record the plan, checkpoint, exercise, and acceptance criteria there.
 - Teach through small runnable demos. Do not begin by asking the learner to read a large open-source repository.
 - For each demo, explain one concept, show a small example when needed, ask the learner to write a similar piece, then review the learner's code and add one incremental requirement.
 - Do not provide a complete solution before the learner has attempted the current checkpoint. AI may provide syntax hints, debugging guidance, tests, and review.
-- Record the weekly plan and acceptance criteria in the active weekly task. Record daily goals, code output, tests, blockers, and next steps in that task's `daily/` notes.
 - Before moving to the next concept, require a runnable result and a short explanation of the key design choices.
 - Read `.trellis/spec/go/index.md` before writing or reviewing Go demo code.
